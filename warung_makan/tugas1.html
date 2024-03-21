@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from Register</title>
+    <link rel="stylesheet" href="tugas1.css">
+</head>
+
+<body>
+    <div class="top-header">
+        <div class="logo">
+            <h1><a href="#">ZIYADA</a></h1>
+        </div>
+    </div>
+
+    <nav>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="">Menu</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-register-login">
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content-row">
+        <div class="content1">
+            <p>Register</p>
+            <form id="survey-form">
+                <div class="id">
+                    <label for="id">ID</label>
+                    <input type="text" id="id" name="id" placeholder="Masukan ID anda" required />
+                </div>
+
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Masukan email anda" required />
+                </div>
+
+                <div class="jenis-kelamin">
+                    <label>JK</label>
+                    <input type="radio" id="gender" name="gender" value="male" />
+                    <label for="gender">Male</label>
+                    <input type="radio" id="gender" name="gender" value="female" />
+                    <label for="gender">Female</label>
+                </div>
+
+
+                <div class="agama">
+                    <label for="dropdown">Agama</label>
+                    <select id="dropdown" name="agama" required>
+                        <option value="" disabled selected>Pilih agama</option>
+                        <option value="Hindu">hindu</option>
+                        <option value="Katolik">katolik</option>
+                        <option value="Budha">budha</option>
+                        <option value="Islam">islam</option>
+                        <option value="kristen">kristen</option>
+                        <option value="konghucu">Konghucu</option>
+                    </select>
+                </div>
+
+
+                <div class="alamat">
+                    <label for="alamat">Alamat</label>
+                    <textarea id="alamat" name="alamat" placeholder="Isi Alamat"></textarea>
+                </div>
+                <div class="buttons">
+                    <button id="button1">Daftar</button>
+                    <button id="button2">Batal</button>
+                </div>
+            </form>
+        </div>
+
+
+        <div class="content2">
+            <label>Hobi</label>
+        </div>
+        <div class="content2">
+            <form>
+                <div>
+                    <input type="checkbox" name="hobby" value="reading" id="reading" />
+                    <label for="otomotif">otomotif</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hobby" value="sports" id="sports" />
+                    <label for="pencak">pencak silat</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hobby" value="music" id="music" />
+                    <label for="sepak bola">sepak bola</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hobby" value="mancing" id="mancing" />
+                    <label for="futsal">futsal</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hobby" value="otomotif" id="otomotif" />
+                    <label for="menyanyi">menyanyi</label>
+                </div>
+                <div>
+                    <label for="other-hobby">Lainnya (Other)</label>
+                    <input type="text" id="other-hobby" name="other-hobby" placeholder="Masukkan hobi lainnya" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+
+        <div class="footer-content">
+            <p>&copy;Idhamch.</p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
